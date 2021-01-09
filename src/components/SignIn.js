@@ -79,6 +79,7 @@ export default function SignIn({setName}) {
                 e.preventDefault();
               }
             }}
+
           />
           <Button
             type="button"
@@ -91,6 +92,7 @@ export default function SignIn({setName}) {
               setName(string);
 ;
             }}
+
           >
             What's up?
           </Button>
